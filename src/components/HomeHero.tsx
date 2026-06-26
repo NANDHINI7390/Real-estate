@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, MapPin, Landmark, DollarSign } from 'lucide-react';
 import { PropertyFilters } from '../types';
 import { AVAILABLE_CITIES } from '../data/sampleData';
+import happyFamilyImg from '../assets/images/happy_indian_family_new_home_1782440518011.jpg';
 
 interface HomeHeroProps {
   onSearch: (filters: PropertyFilters) => void;
@@ -204,7 +205,7 @@ export default function HomeHero({ onSearch }: HomeHeroProps) {
               {/* Core Image Container */}
               <div className="relative rounded-2xl overflow-hidden border border-amber-500/20 md:border-2 shadow-2xl bg-emerald-900/10">
                 <img
-                  src="/src/assets/images/happy_indian_family_new_home_1782440518011.jpg"
+                  src={happyFamilyImg}
                   alt="Happy Indian family in front of their new premium modern villa, golden hour lighting"
                   className="w-full h-[280px] sm:h-[350px] lg:h-[450px] object-cover hover:scale-105 transition-transform duration-700 ease-out"
                   referrerPolicy="no-referrer"

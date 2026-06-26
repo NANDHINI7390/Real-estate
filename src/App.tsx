@@ -3,6 +3,7 @@ import { PageView, Property, PropertyFilters } from './types';
 import { getProperties } from './supabaseClient';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WhatsAppWidget from './components/WhatsAppWidget';
 
 // Page Views
 import Home from './pages/Home';
@@ -165,6 +166,9 @@ export default function App() {
         onPageChange={setCurrentPage}
         onSelectProperty={setSelectedPropertyId}
       />
+
+      {/* Floating WhatsApp Widget */}
+      <WhatsAppWidget />
     </div>
   );
 }

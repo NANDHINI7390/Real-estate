@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Overwrite emerald to map directly to Deep Navy (#0A2540) */
+  --color-emerald-50: #f4f7fa;
+  --color-emerald-100: #e5edf5;
+  --color-emerald-200: #ccdceb;
+  --color-emerald-300: #a3c2df;
+  --color-emerald-400: #71a1ce;
+  --color-emerald-500: #4c82bc;
+  --color-emerald-600: #3867a3;
+  --color-emerald-700: #2f5385;
+  --color-emerald-800: #29466f;
+  --color-emerald-900: #142e4b;
+  --color-emerald-950: #0A2540;
+
+  /* Overwrite amber to map directly to Muted Gold (#C9A227) */
+  --color-amber-50: #fdfbf1;
+  --color-amber-100: #faf4db;
+  --color-amber-200: #f3e5b3;
+  --color-amber-300: #ead282;
+  --color-amber-400: #ddba52;
+  --color-amber-500: #C9A227;
+  --color-amber-600: #ae861e;
+  --color-amber-700: #8c671a;
+  --color-amber-800: #71521a;
+  --color-amber-900: #5f441a;
+  --color-amber-950: #36250b;
+
+  /* Custom background-warm and text-charcoal */
+  --color-bg-warm: #FAFAF8;
+  --color-text-charcoal: #1A1A1A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAFAF8;
+  color: #1A1A1A;
+}

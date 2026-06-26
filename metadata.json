@@ -1,0 +1,6 @@
+{
+  "name": "Mailam Properties",
+  "description": "Premium real estate listing and enquiry application with modular property browser, interactive maps, dynamic pricing conversion, and back-office admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
